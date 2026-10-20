@@ -31,8 +31,7 @@ jobs:
     strategy:
       fail-fast: false
       #max-parallel: 3
-      matrix:
-        #CONFIG: [./config/IPQ60XX-WIFI-NO-ZN-M2]
+      matrix:        
         CONFIG: [IPQ60XX-WIFI-NO-ZN-M2]
         SOURCE: [VIKINGYFY/immortalwrt]
         BRANCH: [main]

@@ -22,3 +22,5 @@ CONFIG_KERNEL_SKB_FIXED_SIZE_2K=y
 # Wireless Drivers
 CONFIG_ATH11K_NSS_SUPPORT=n
 #######################################################################################
+
+CONFIG_PACKAGE_kmod-usb-printer=y
